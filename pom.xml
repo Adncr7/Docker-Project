@@ -352,5 +352,18 @@
       </build>
     </profile>
   </profiles>
+      <distributionManagement>
+		<repository>
+			<id>docker-123-release</id>
+			<name>docker-123-release</name>
+			<url>http://34.229.69.133:8081/repository/docker-123-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>docker-123-snapshot</id>
+			<name>docker-123-snapshot</name>
+			<url>http://34.229.69.133:8081/repository/docker-123-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 
 </project>
